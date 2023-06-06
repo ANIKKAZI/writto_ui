@@ -1,0 +1,69 @@
+*{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+.custom-link {
+  color: blue;
+  /* Add more custom styles as needed */
+}
+.brand-info{
+  color: #ff4500a1 !important;
+  font-weight: bold ;
+}
+.logo-style{
+  height: 50px !important;
+  width: auto !important
+}
+
+.container {
+  margin-top: 1rem;
+  min-height: 60vh !important
+} 
+ #nav-element a.active{
+  text-decoration: none ;
+  font-weight: bold ;
+  color: #ffb368;
+}
+
+.contact-row {
+  display: flex;
+  gap: 60px;
+  flex-wrap: nowrap;
+  justify-content: flex-start; /* Aligns the content to the left */
+}
+.contact-box {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+}
+.contact-elements
+{
+  background-color: #ffb368;
+  padding: 10px;
+  border-radius: 8px;
+}
+.contact-heading
+{
+  background-color: #ffb368;
+  color: blue;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  height: 50px;
+  text-align: center;
+}
+.help-image {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  
+}
+@media (max-width: 767px) {
+  /* Mobile view */
+  .contact-row {
+    flex-direction: column;
+  }
+  .help-image {
+    display: none;
+    
+  }
+}
