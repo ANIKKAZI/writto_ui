@@ -17,10 +17,10 @@ export const Navigation = () => {
      <Navbar.Toggle aria-controls="navbar-nav" />
       <Navbar.Collapse id="navbar-nav">
         <Nav id= "nav-element" className="ml-auto navigation-select pt-4">
-           <NavLink to='/' className="mr-3 ">Home</NavLink>
-           <NavLink to='/about' className="mr-3">About</NavLink>
-           <NavLink to='/products' className="mr-3">Products</NavLink>
-           <NavLink to='/contact' className="mr-3">Contact</NavLink>
+           <NavLink to='/' className="mr-3 ">HOME</NavLink>
+           <NavLink to='/about' className="mr-3">ABOUT US</NavLink>
+           {/* <NavLink to='/products' className="mr-3">Products</NavLink> */}
+           <NavLink to='/contact' className="mr-3">CONTACT</NavLink>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

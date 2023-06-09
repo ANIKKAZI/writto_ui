@@ -31,6 +31,14 @@
   flex-wrap: nowrap;
   justify-content: flex-start; /* Aligns the content to the left */
 }
+
+
+.about-row {
+  display: flex;
+  gap: 60px;
+  flex-wrap: nowrap;
+  justify-content: flex-start; /* Aligns the content to the left */
+}
 .contact-box {
   background-color: #f0f0f0;
   padding: 20px;

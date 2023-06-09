@@ -17,19 +17,19 @@ function App() {
     <>
     {/* <Navbar></Navbar> */}
     <Navigation></Navigation>
-    <Routes>
-      <Route path='/' element={<Home/>}></Route>
-      <Route path='about' element={<About/>}></Route> 
-      <Route path='orders' element={<OrderSummary/>}>  
-      </Route> 
-      <Route path='products' element={<Products/>}>
-         <Route index element={<FeaturedPrducts/>}></Route> 
-         <Route path='featured' element={<FeaturedPrducts/>}></Route> 
-         <Route path='new' element={<NewProducts/>}></Route>
-      </Route> 
-      <Route path='contact' element= {<Contact/>}></Route>
-      <Route path='*' element={<NoMatch/>}></Route> 
-    </Routes>
+      <Routes>
+        <Route path='/' element={<Home/>}></Route>
+        <Route path='about' element={<About/>}></Route> 
+        <Route path='orders' element={<OrderSummary/>}>  
+        </Route> 
+        <Route path='products' element={<Products/>}>
+          <Route index element={<FeaturedPrducts/>}></Route> 
+          <Route path='featured' element={<FeaturedPrducts/>}></Route> 
+          <Route path='new' element={<NewProducts/>}></Route>
+        </Route> 
+        <Route path='contact' element= {<Contact/>}></Route>
+        <Route path='*' element={<NoMatch/>}></Route> 
+      </Routes>
     </>
   );
 }
