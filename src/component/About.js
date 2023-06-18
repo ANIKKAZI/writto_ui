@@ -5,6 +5,16 @@ import writto from '../assets/writto.png'
 import about from '../assets/about.png'
 import './About.css';
 export const About = () => {
+  let handleSubmit = (event) => {
+    event.preventDefault();
+    console.log('submitted');
+  };
+
+
+
+
+
+
   return (
     <>
     <div className="about-heading">
